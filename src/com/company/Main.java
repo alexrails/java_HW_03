@@ -63,5 +63,21 @@ public class Main {
         for(int i = array.length - 1; i >= 0; i = i - 1){
             System.out.printf(" %d", array[i]);
         }
+        //Fourth task
+        int squareArray[][] = new int[2][3];
+        squareArray[0][0] = 12;
+        squareArray[0][1] = 21;
+        squareArray[0][2] = 34;
+        squareArray[1][0] = 11;
+        squareArray[1][1] = 8;
+        squareArray[1][2] = 3;
+
+        System.out.println();
+        for(int i = 0; i < squareArray.length; i += 1){
+            for(int j = 0; j < squareArray[i].length; j += 1){
+                System.out.print(" " + squareArray[i][j] + "[" + i + "]" + "[" + j + "]" );
+            }
+            System.out.println();
+        }
     }
 }
