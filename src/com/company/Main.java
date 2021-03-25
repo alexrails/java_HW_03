@@ -58,6 +58,10 @@ public class Main {
             default:
                 System.out.println("Wrong number");
         }
+        //Third task
+        int[] array = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+        for(int i = array.length - 1; i >= 0; i = i - 1){
+            System.out.printf(" %d", array[i]);
+        }
     }
-
 }
